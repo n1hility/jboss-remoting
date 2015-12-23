@@ -31,9 +31,15 @@
 
     <groupId>org.jboss.remoting</groupId>
     <artifactId>jboss-remoting</artifactId>
-    <version>4.0.18.Final-SNAPSHOT</version>
+    <version>4.0.17.Final-wildfly-1</version>
 
     <packaging>jar</packaging>
+
+    <scm>
+        <connection>scm:git:https://github.com/n1hility/jboss-remoting</connection>
+        <developerConnection>scm:git:git@github.com:n1hility/jboss-remoting.git</developerConnection>
+        <url>https://github.com/n1hility/jboss-remoting</url>
+    </scm>
 
     <parent>
         <groupId>org.jboss</groupId>
